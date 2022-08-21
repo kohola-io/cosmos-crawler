@@ -16,8 +16,11 @@ The `DLY` variable is set to 3 seconds by default - if `curl` does not receive a
 Steps to run - 
 
 Make crawl.sh executable
+
 ```sudo chmod a+x crawl.sh```
+
 Then run from the crawl directory
+
 ```./crawl.sh```
 
 This will take time to complete.  Each RPC node will be crawled ONCE.  If a net_info JSON file exists on disk for a discovered peer IP, the RPC node will not be scanned again.  NOTE: this means that any new peers attached to this same RPC source since the previous interaction may be missed.
