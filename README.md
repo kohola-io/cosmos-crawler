@@ -1,7 +1,14 @@
 # cosmos-crawler
 Tool for crawling Tendermint RPC nodes
 
+## Dependencies 
+- curl
+- jq
+- bash
+
 Tested on MacOS and Ubuntu 22.04 - YMMV on other Linux distros
+
+## How It Works
 
 This BASH script expects to be run within the crawl folder and will generate two files for each RPC node discovered
 
