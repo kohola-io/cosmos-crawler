@@ -5,7 +5,7 @@ Tested on MacOS and Ubuntu 22.04 - YMMV on other Linux distros
 
 This BASH script expects to be run within the crawl folder and will generate two files for each RPC node discovered
 
-```net_info.<RPC node IP>.json```
+```<RPC node IP>.net_info.json```
 
 and
 
