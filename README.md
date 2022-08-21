@@ -20,6 +20,8 @@ and
 
 The `DLY` variable is set to 3 seconds by default - if `curl` does not receive a JSON response within this time, the source will be skipped.
 
+The `SEED` variable must be set to an RPC endpoint (must be an IP address for this script, but this could be optimized later with a call to a DNS server) - current `SEED` value is a Kujira endpoint from [@mintthemoon](https://github.com/mintthemoon) (thanks!!)
+
 Steps to run - 
 
 Make crawl.sh executable
